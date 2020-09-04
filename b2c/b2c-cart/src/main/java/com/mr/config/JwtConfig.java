@@ -19,7 +19,7 @@ import java.security.PublicKey;
 public class JwtConfig {
 
     @Value("${b2c.jwt.pubKeyPath}")
-    private String pubKeyPath;// 公钥
+    private String pubKeyPath;// 公钥看就看
     @Value("${b2c.jwt.cookieName}")
     private String cookieName;// cookie名称
 
